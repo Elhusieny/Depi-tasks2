@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DepiTasks2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.DepiTasks2" parent="Base.Theme.DepiTasks2" />
+
+    <style name="CustomTVStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+    <style name="CustomTVStyleRed" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background_red</item>
+    </style>
+    <style name="CustomTVStyleBlue" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background_blue</item>
+    </style>
+    <style name="CustomTVStyleGreen" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background_green</item>
+    </style>
+    <style name="CustomTVStyleBlack" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background_black</item>
+    </style>
+</resources>
